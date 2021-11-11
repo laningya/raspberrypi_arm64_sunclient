@@ -9,6 +9,6 @@ sudo dpkg -i ./com.oray.sunlogin.client_11.0.0.38604_arm64.deb  #注意此处的
 接下来你可能想要向日葵的开机自启动，步骤如下：<br>
 cd /home/pi/.config<br>
 mkdir autostart && cd autostart<br>
-cp /usr/share/applications/com.oray.sunlogin.client.desktop<br> .
+cp /usr/share/applications/com.oray.sunlogin.client.desktop .<br>
 cd<br>
 完成！！！
